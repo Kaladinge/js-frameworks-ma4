@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+nav a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.navbar-brand span {
+  color: #0066cc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0;
+}

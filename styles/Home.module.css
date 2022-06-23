@@ -1,0 +1,32 @@
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.card {
+  width: 300px;
+  height: 410px;
+}
+
+.cardHolder {
+  margin-bottom: 40px;
+}
+
+.aboutHolder {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
